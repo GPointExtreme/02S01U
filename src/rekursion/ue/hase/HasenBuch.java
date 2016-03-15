@@ -4,7 +4,6 @@ public class HasenBuch {
 
 	public static void main(String[] args) {
 		lesen(3);
-
 	}
 	
 	public static void lesen (int tiefe) {
@@ -17,7 +16,5 @@ public class HasenBuch {
 		System.out.println("im Buch stand das:");
 		tiefe--;
 		lesen(tiefe);
-		
 	}
-
 }
